@@ -53,8 +53,8 @@ function Login() {
       className="m mark w-100"
     >
       <div
-        className="align-self-ceneter shadow-lg  container w-50"
-        style={{ marginTop: "100px" }}
+        className="align-self-ceneter shadow-lg  container"
+        style={{ marginTop: "225px", width: "max-content" }}
       >
         <h2 className="text-center">Login</h2>
         <div className="align-items-center  d-flex flex-column">
@@ -62,7 +62,7 @@ function Login() {
             size="md"
             type="text"
             placeholder="Username"
-            className="bg form-control form-control-md m-2"
+            className="bg form-control form-control-md m-3"
             ref={userN}
             value={userName}
             onChange={() => {
